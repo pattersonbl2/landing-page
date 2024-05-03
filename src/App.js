@@ -16,6 +16,8 @@ const SplashPage = () => {
     <div className="splash-container">
       <div className="loading-bar" style={{ width: `${loadingProgress}%` }}></div>
       <p className="coming-soon">Coming Soon</p>
+      <p>Check out my GitHub profile:</p>
+      <a href="https://github.com/pattersonbl2">GitHub Profile</a>
     </div>
   );
 };
